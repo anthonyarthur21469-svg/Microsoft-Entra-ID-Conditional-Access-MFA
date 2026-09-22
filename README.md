@@ -117,7 +117,3 @@ The policy remained Report-only because the administrator had not yet been provi
 - Sign-in risk evaluates the likelihood that an authentication attempt is suspicious; user risk evaluates likelihood that an identity is compromised.
 - Privileged identities warrant stronger authentication and careful rollout to avoid administrative lockout.
 - Security Defaults and Conditional Access should not be treated as independent overlapping baselines without understanding their interaction.
-
-**Interview explanation:** "I built a Microsoft Entra Conditional Access lab where I configured and tested several identity security policies. I enforced MFA for a standard user, created location-based access restrictions, configured risk-based MFA for medium and high-risk sign-ins, and created a phishing-resistant authentication-strength policy for a privileged admin account. I used Report-only mode, sign-in logs, and the What If tool to validate the policies before enforcement so I could avoid unintended access or administrator lockouts."
-
----
