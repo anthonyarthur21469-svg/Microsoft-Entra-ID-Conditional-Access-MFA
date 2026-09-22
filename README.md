@@ -121,23 +121,3 @@ The policy remained Report-only because the administrator had not yet been provi
 **Interview explanation:** "I built a Microsoft Entra Conditional Access lab where I configured and tested several identity security policies. I enforced MFA for a standard user, created location-based access restrictions, configured risk-based MFA for medium and high-risk sign-ins, and created a phishing-resistant authentication-strength policy for a privileged admin account. I used Report-only mode, sign-in logs, and the What If tool to validate the policies before enforcement so I could avoid unintended access or administrator lockouts."
 
 ---
-
-## 9. Resume-Ready Version
-
-- Built Microsoft Entra Conditional Access policies enforcing MFA, geographic access restrictions, risk-based authentication, and phishing-resistant authentication for privileged identities.
-- Validated Conditional Access behavior through Report-only deployment, sign-in log analysis, positive/negative testing, and What If simulations before enforcement.
-- Applied Zero Trust concepts including contextual access decisions, authentication strength, least privilege, and stronger protection for administrative accounts.
-
-## 10. LinkedIn-Ready Summary
-
-Designed and validated a Microsoft Entra Conditional Access lab using MFA, Named Locations, Identity Protection risk signals, authentication strengths, sign-in logs, and What If testing. Implemented a standard-user MFA policy, simulated geographic restrictions, risk-based MFA, and phishing-resistant MFA for privileged administration while using Report-only deployment and controlled testing to reduce lockout risk.
-
-**Artifact checklist**
-
-- P2 licensing and usage-location troubleshooting
-- Security Defaults transition
-- MFA policy and sign-in validation
-- Named Location and restricted-country What If test
-- Risk-based MFA What If test
-- Phishing-resistant admin policy What If test
-- Final policy inventory
